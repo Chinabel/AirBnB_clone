@@ -14,6 +14,7 @@ from models.review import Review
 classes = {"Amenity": Amenity, "BaseModel": BaseModel, "City": City,
            "Place": Place, "Review": Review, "State": State, "User": User}
 
+
 class FileStorage:
     """Class for Serializes and Deserializes"""
     def __init__(self):
